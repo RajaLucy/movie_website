@@ -1,0 +1,102 @@
+
+body{
+    background-color: aqua;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+
+.navi{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: yellow;
+}
+.navi li{
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+}
+.navi li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.navi li a:hover{
+ color: red;
+}
+
+.contain
+{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+
+    
+   
+    
+}
+.box{
+    width: 220px;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+   
+   
+   
+}
+.box img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+
+}
+.box:hover img{
+    transform: scale(1.2);
+}
+.spa{
+    width: 220px;
+    height: auto;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    top: 10px;
+   padding-left: 3px;
+   
+   
+}
+.doc {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    animation: hero 5s linear 2s infinite alternate;
+    background-size:cover;
+}
+
+/* @keyframes hero {
+    0% {
+        background: url(../images/spd.jpg) no-repeat;
+    }
+    25% {
+        background: url(../images/wp6303660.jpg) no-repeat;
+    }
+    50% {
+        background: url(../images/av.jpg) no-repeat;
+    }
+    75% {
+        background: url(../images/iron.jpg) no-repeat;
+    }
+    100% {
+        background: url(../images/spider.jpg) no-repeat;
+    }
+} */
